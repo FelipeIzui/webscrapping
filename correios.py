@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 
 driver = webdriver.Chrome('C:\Program Files\SeleniumBasic\chromedriver.exe');
 
-rastreio = 'OS677439523BR';
+rastreio = 'OS13204O12421BR';
 url = 'https://www.linkcorreios.com.br/?id=' + str(rastreio);
 
 driver.get(url);
